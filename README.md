@@ -1,22 +1,22 @@
-# gatsby-starter-drupal-boina
+# Gatsby Starter Drupal Boina
 
-A Gatsby Starter using for the Drupal Boina Distribution
+A Gatsby Starter for the Drupal Boina Distribution
 
 ## Install
 ```shell
-npm install --save @weknow/gatsby-theme-drupal-boina
+gatsby new [SITE_DIRECTORY_NAME] https://github.com/weknowinc/gatsby-starter-drupal-boina
+$ cd [SITE_DIRECTORY_NAME]
+$ gatsby develop
 ```
-## How to use
-In your new site gatsby-config.js
-```js
-  __experimentalThemes: [
-    {
-      resolve: '@weknow/gatsby-theme-drupal-boina',
-      options: {
-        root: __dirname
-      }
-    }
-  ]
+
+## Setup your enviroment variables
+Copy `.env.dist` to `.env.development`, 
+you can use `.env.production` for production deployments
+
+Here you can point to your drupal site.
+```shell
+# drupal
+DRUPAL_HOST=http://blog-drupal.weknowinc.develop/
 ```
 
 ## Replacing a component (shadowing)

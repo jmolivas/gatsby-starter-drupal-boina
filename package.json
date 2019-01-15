@@ -1,6 +1,6 @@
 {
   "name": "gatsby-starter-drupal-boina",
-  "description": "Gatsby starter using the Gatsby theme Drupal boina",
+  "description": "A Gatsby Starter for the Drupal Boina Distribution",
   "version": "1.0.0",
   "author": "Jairo Rondon <jrondon@weknowinc.com>",
   "keywords": [
