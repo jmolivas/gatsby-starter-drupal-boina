@@ -26,8 +26,8 @@ gatsby develop
 ```
 
 ## Replacing a component (shadowing)
-Create a js component in the starting with the path
+Create a js component in the starting with the path:
 ```
 /src/components/@weknow/gatsby-theme-drupal-boina/
 ```
-and follow the path to the component you want to replace.
+And follow the path to the component you want to replace.
