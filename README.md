@@ -4,6 +4,11 @@ The Gatsby Starter for the Drupal Boina Distribution
 
 - [Gatsby demo site](https://boina.netlify.com/)
 
+## Project dependencies
+
+- [node](https://nodejs.org/en/download/)
+- [gatsby-cli](https://www.gatsbyjs.org/tutorial/part-zero/#install-gatsby-cli)
+
 ## Install
 
 ```shell
