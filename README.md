@@ -2,6 +2,8 @@
 
 The Gatsby Starter for the Drupal Boina Distribution
 
+- [Gatsby demo site](https://boina.netlify.com/)
+
 ## Install
 
 ```shell
@@ -9,15 +11,15 @@ gatsby new boina https://github.com/weknowinc/gatsby-starter-drupal-boina
 cd boina
 ```
 
-## Copy enviroment file
+## Copy environment file
 
 ```shell
 cp .env.dist .env.development
 ```
 
-> NOTE: You should use `.env.production` for production enviroment.
+> NOTE: You should use `.env.production` for production environment.
 
-## Update enviroment variables
+## Update environment variables
 
  ```shell
 # drupal
