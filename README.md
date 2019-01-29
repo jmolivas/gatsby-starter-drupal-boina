@@ -4,19 +4,25 @@ A Gatsby Starter for the Drupal Boina Distribution
 
 ## Install
 ```shell
-gatsby new [SITE_DIRECTORY_NAME] https://github.com/weknowinc/gatsby-starter-drupal-boina
-$ cd [SITE_DIRECTORY_NAME]
-$ gatsby develop
+gatsby new boina https://github.com/weknowinc/gatsby-starter-drupal-boina
+cd boina
 ```
 
 ## Setup your enviroment variables
-Copy `.env.dist` to `.env.development`, 
-you can use `.env.production` for production deployments
+```
+cp `.env.dist` to `.env.development`
+```
+> NOTE: You should use `.env.production` for production enviroment.
 
-Here you can point to your drupal site.
+Update enviroment variables
 ```shell
 # drupal
-DRUPAL_HOST=http://blog-drupal.weknowinc.develop/
+DRUPAL_HOST=http://drupal-boina.develop/
+```
+
+Start developing
+```
+gatsby develop
 ```
 
 ## Replacing a component (shadowing)
