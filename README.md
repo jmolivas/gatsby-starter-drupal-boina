@@ -9,19 +9,19 @@ cd boina
 ```
 
 ## Setup your enviroment variables
-```
+```shell
 cp `.env.dist` to `.env.development`
 ```
 > NOTE: You should use `.env.production` for production enviroment.
 
 Update enviroment variables
-```shell
+ ```shell
 # drupal
 DRUPAL_HOST=http://drupal-boina.develop/
 ```
 
 Start developing
-```
+```shell
 gatsby develop
 ```
 
