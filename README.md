@@ -1,6 +1,6 @@
 # Gatsby Starter Drupal Boina
 
-A Gatsby Starter for the Drupal Boina Distribution
+The Gatsby Starter for the Drupal Boina Distribution
 
 ## Install
 ```shell
@@ -10,17 +10,17 @@ cd boina
 
 ## Setup your enviroment variables
 ```shell
-cp `.env.dist` to `.env.development`
+cp .env.dist .env.development
 ```
 > NOTE: You should use `.env.production` for production enviroment.
 
-Update enviroment variables
+## Update enviroment variables
  ```shell
 # drupal
 DRUPAL_HOST=http://drupal-boina.develop/
 ```
 
-Start developing
+## Start Gatsby in development mode
 ```shell
 gatsby develop
 ```
